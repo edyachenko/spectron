@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939a2a6e-c7c8-433f-ad3d-9d02646aae99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/feature_test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/my_steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/nodejs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_spectron.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_webdriver.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +54,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../electron-spectron-example" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\npm-test\test" />
-      <recent name="D:\Projects\npm-test" />
-      <recent name="D:\Projects\npm-test\;" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\spectron\test" />
       <recent name="D:\Projects\npm-test\test" />
       <recent name="D:\Projects\npm-test\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\spectron\features" />
+      <recent name="D:\Projects\npm-test\test" />
+      <recent name="D:\Projects\npm-test" />
+      <recent name="D:\Projects\npm-test\;" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,7 +103,9 @@
       <workItem from="1598528992431" duration="2360000" />
       <workItem from="1598531543043" duration="12105000" />
       <workItem from="1598620208111" duration="13145000" />
-      <workItem from="1598946860780" duration="1363000" />
+      <workItem from="1598946860780" duration="3752000" />
+      <workItem from="1598953309357" duration="355000" />
+      <workItem from="1598955847860" duration="12132000" />
     </task>
     <servers />
   </component>
@@ -112,28 +122,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598946913042">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598958726008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598946913042" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1598616118544">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598958726008" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598959779260">
       <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598959779260" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1598955896320">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598616118544" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1598616118544">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598955896320" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1598955896320">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598616118544" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1598616118543">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598955896320" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1598955896320">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598616118543" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1598616118544">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598955896320" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1598955896320">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598616118544" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598955896320" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1598616118545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -166,10 +185,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598616118545" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598947805385">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1598950939933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598947805385" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598950939933" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598950978325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598950978325" />
+    <state x="512" y="334" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1598965768588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="334" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598965768588" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598968064641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598968064641" />
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598721404072" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598960870106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598960870106" />
   </component>
 </project>

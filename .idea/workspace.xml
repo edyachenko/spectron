@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939a2a6e-c7c8-433f-ad3d-9d02646aae99" name="Default Changelist" comment="Tests updated to use cucumber and added github actions yml">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="939a2a6e-c7c8-433f-ad3d-9d02646aae99" name="Default Changelist" comment="minor update in reamde" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +96,7 @@
       <workItem from="1598620208111" duration="13145000" />
       <workItem from="1598946860780" duration="3752000" />
       <workItem from="1598953309357" duration="355000" />
-      <workItem from="1598955847860" duration="13036000" />
+      <workItem from="1598955847860" duration="13346000" />
     </task>
     <task id="LOCAL-00001" summary="Tests updated to use cucumber and added github actions yml">
       <created>1598972729665</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598972998973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minor update in reamde">
+      <created>1598973563113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598973563113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests updated to use cucumber and added github actions yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests updated to use cucumber and added github actions yml" />
+    <MESSAGE value="minor update in reamde" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor update in reamde" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598958726008">
@@ -220,10 +226,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598950939933" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598972894887">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598973568390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598972894887" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1598973568390" />
     <state x="512" y="334" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1598965768588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

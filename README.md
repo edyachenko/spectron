@@ -15,4 +15,4 @@ then run
 then run
 
 ```mocha run test/test_spectron```
-
+//    "testm": "node ./node_modules/mocha/bin/_mocha",

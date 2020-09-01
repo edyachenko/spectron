@@ -1,0 +1,24 @@
+{
+  "name": "spectron",
+  "version": "1.0.0",
+  "description": "testing spectron",
+  "main": "index.js",
+  "scripts": {
+    "start": "bar ./test",
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "author": "ievgen",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "electron": "^10.0.0",
+    "mocha": "^8.1.2"
+  },
+  "dependencies": {
+    "chromedriver": "^85.0.0",
+    "electron-chromedriver": "^10.0.0",
+    "electron-single-instance": "0.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "spectron": "^11.1.0"
+  }
+}

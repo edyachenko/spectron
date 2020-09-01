@@ -10,16 +10,14 @@ on:
 jobs:
   test:
     name: Running UI tests
-      
-      runs-on: windows-latest
-
-      steps:
+    runs-on: windows-latest
+    steps:
         - uses: actions/checkout@v1
         - name: Use Node.js ${{matrix.node-version}}
           uses: actional/setup-node@v1
           with:
            nodeversion: ${{matrix.node-version}}
         - name: Install
-            run: npm install
+          run: npm install
         - name: Test
-            run: npm test
+          run: npm test

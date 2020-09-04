@@ -1,18 +1,13 @@
 # Spectron
 
-#####Install libs according to tutorials on 
-[the project on GitHub](https://www.electronjs.org/docs/tutorial/using-selenium-and-webdriver)
+##### Node js should be installed. PLeae check the docs on [the project on GitHub](https://www.electronjs.org/docs/tutorial/using-selenium-and-webdriver)
 
-In order to test with chromedriver, run chromedriver file from node_modules/.bin/chromedriver
-######This info is also presented on electron api docs
+####Before running the test please change name of ```.env.dist``` to ```.env``` and fill in the empty fields with appropriate values
 
-###To run Spectron + Selenium WD test, makesure chromedriver server is up and running,
-then run
+####To install the dependecies run the following command
 
-```mocha run test/test_webdriver```
+```npm install```
 
-###To run Spectron only test, makesure chromedriver server is shut down,
-then run
+### To run the tests:
 
-```mocha run test/test_spectron```
-//    "test": "node ./node_modules/mocha/bin/_mocha",
+```npm test```

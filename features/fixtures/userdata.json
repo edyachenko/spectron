@@ -1,0 +1,12 @@
+{
+  "name": "name",
+  "email": "@email.com",
+  "password": "qwerty12#$%Q!@#",
+  "confirmPassword": "qwerty12#$%Q!@#",
+  "recoveryPhrases": {
+    "phrase1": "phrase1"
+  }
+
+
+
+}

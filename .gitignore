@@ -1,3 +1,4 @@
 /node_modules/
 /winston.log
 /package-lock.json
+.idea/*

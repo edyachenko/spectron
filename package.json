@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "bar ./test",
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js -f ./reportPortalFormatter.js"
   },
   "author": "ievgen",
   "license": "ISC",
   "devDependencies": {
+    "@reportportal/agent-js-cucumber": "^5.0.0",
     "cucumber": "^6.0.5",
     "electron": "^9.0.0"
   },
@@ -21,6 +22,6 @@
     "electron-chromedriver": "^10.0.0",
     "electron-single-instance": "0.0.2",
     "selenium-webdriver": "^4.0.0-alpha.7",
-    "spectron": "10.0.1"
+    "spectron": "10.0.0"
   }
 }

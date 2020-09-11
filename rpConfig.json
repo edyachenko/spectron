@@ -1,0 +1,13 @@
+{
+  "takeScreenshot": "onFailure",
+  "description": "Awesome launch description.",
+  "async": true,
+  "attributes": [
+    {
+      "key": "default",
+      "value": "launchAttributeValue"
+    }
+  ],
+  "mode": "DEFAULT",
+  "debug": false
+}

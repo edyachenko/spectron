@@ -103,3 +103,13 @@ Then(/^verify something$/, async function () {
     expect(await hooks.getElementByCssSelector("h4").getText()).to.equal("SEND COMPLETE")
 
 });
+//just to fail test
+Then(/^Something is false$/, function () {
+    expect(true).to.equal(false)
+
+});
+Then(/^Some system issue$/, async function () {
+
+    await hooks.getElementByCssSelector("abracodabra").getText()
+
+});

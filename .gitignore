@@ -2,3 +2,4 @@
 /winston.log
 /package-lock.json
 .idea/*
+/.env
